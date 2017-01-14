@@ -1,5 +1,4 @@
-<b><h1>Todoist List</h1></b><br/>
-
+<b><h1>Todoist List</h1></b>
 <h5>Simple Dashing widget to display your todoist to-do's. </h5>
 
 This widget has been forked from a similar repo and has thus inherited a cool color changing feature based on your todoist karma.<br/>
