@@ -21,7 +21,6 @@ SCHEDULER.every '5m', :first_in => 0 do |job|
         items.each do |st|
              items_array.push(st['content'])
         end
-        puts items_array
         send_event('todoist', {items: items_array})
     else
         puts response.code
