@@ -24,7 +24,6 @@ SCHEDULER.every '5m', :first_in => 0 do |job|
         send_event('todoist', {items: items_array})
     else
         puts response.code
-        puts "NOT 200"
         puts response.body
         puts item_url_string
     end
