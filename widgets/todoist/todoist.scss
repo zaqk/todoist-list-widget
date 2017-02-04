@@ -1,0 +1,58 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #47bbb3;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$label-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-todoist styles
+// ----------------------------------------------------------------------------
+.widget-todoist {
+
+  background-color: $background-color;
+  /*padding: 25px 12px;*/
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+
+  .title {
+    color: $title-color;
+  }
+
+  .label {
+        color: $label-color;
+        text-align: left;
+        float: left;
+        font-weight: 400;
+        color: $label-color;
+  }
+
+  .value {
+    margin-left: 12px;
+    font-weight: 600;
+    color: $value-color;
+  }
+
+  .change-rate {
+    font-weight: 500;
+    font-size: 30px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}
+
+.list-group-item { 
+  background-color: initial;
+}
