@@ -19,7 +19,12 @@ Lastly, add the following snippet into your dashboard html page:<br/>
 ``` 
     
     
-
+Optionally, if you'd like to limit the size of the list of to-do's set a ```data-limit``` on the inner div:
+```html
+<li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="todoist" data-view="Todoist" data-limit="3" data-unordered="true" data-title="To Do"></div>
+</li>
+```
 
 Check out https://shopify.github.com/dashing for more information on the Dashing framework.<br/>
 Check out https://github.com/squeekobenelli/Todoist-Dashing-Widget for more information on the original todoist karma widget.
