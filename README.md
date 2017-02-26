@@ -5,7 +5,7 @@ This widget has been forked from a similar repo and has thus inherited a cool co
 
 
 Just copy and paste the ```widgets/todoist``` directory into your own widgets directory and then drop ```todoist.rb``` into the jobs directory. 
-Update the ```todoist_token``` var found in ```todoist.rb``` to match your own API token (this is easy to acquire if you haven't done so, you can find it in Todoist Settings -> Account -> API Token. It will be a string, about 20 alphanumeric characters long.)
+Update the ```todoist_token``` var found in ```todoist.rb``` to match your own API token (this is easy to acquire if you haven't done so, you can find it in the Todoist app through Settings -> Account -> API Token. Your API Token will be a string, about 20 alphanumeric characters long.)
 
 
 
